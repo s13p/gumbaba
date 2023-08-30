@@ -506,7 +506,7 @@ background-attachment: fixed;
     box-sizing: border-box;
     height: 100%;
     max-height: 850px;
-    min-height: 640px;
+    min-height: 100vh;
     padding-top: 100px;
     position: relative
 }
@@ -655,13 +655,13 @@ background-attachment: fixed;
 .Section-Hero .Flexbox-Right {
     margin-top: auto;
     max-width: 486px;
-    max-width: none;
+
     -webkit-transform: translateY(56px);
     transform: translateY(56px);
     -webkit-transform: translateY(0);
     transform: translateY(0);
     width: 33vw;
-    width: 50%;
+
     z-index: 99;
     z-index: auto
 }
@@ -1435,7 +1435,7 @@ background-attachment: fixed;
 }
 
 .Panels>div:first-child {
-    background-color: #ffcc01
+    background-color: #00ADF7
 }
 
 .Panels>div:nth-child(2) {
