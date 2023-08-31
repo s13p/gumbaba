@@ -16,6 +16,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!--title-->
     <title>GOOMBA</title>
     <script defer="defer" src="/static/js/main.22773b82.js"></script>
     <link href="/static/css/main.23953276.css" rel="stylesheet">
@@ -340,6 +343,9 @@
               
           
   <h2 style="color: white; font-size: 50px; margin-top: 2rem;" >GOOMBA GALLERY</h2>
+  <model-viewer style="min-height: 60vh; min-width:70vw;" auto-rotate camera-controls ar src="nasty.glb">
+    
+  </model-viewer>
           <div class="image-grid">
               <div class="image-item">
                 <img src="1.gif" alt="Image 1">
